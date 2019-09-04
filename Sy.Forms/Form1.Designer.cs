@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.gRbGiris = new System.Windows.Forms.GroupBox();
-            this.btnGirisYap = new System.Windows.Forms.Button();
             this.btnKayıtOl = new System.Windows.Forms.Button();
+            this.btnGirisYap = new System.Windows.Forms.Button();
             this.lbliSim = new System.Windows.Forms.Label();
             this.gRbGiris.SuspendLayout();
             this.SuspendLayout();
@@ -47,18 +47,6 @@
             this.gRbGiris.TabStop = false;
             this.gRbGiris.Text = "Giriş";
             // 
-            // btnGirisYap
-            // 
-            this.btnGirisYap.BackColor = System.Drawing.Color.Aqua;
-            this.btnGirisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGirisYap.Location = new System.Drawing.Point(6, 31);
-            this.btnGirisYap.Name = "btnGirisYap";
-            this.btnGirisYap.Size = new System.Drawing.Size(112, 79);
-            this.btnGirisYap.TabIndex = 1;
-            this.btnGirisYap.Text = "Giriş Yap";
-            this.btnGirisYap.UseVisualStyleBackColor = false;
-            this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
-            // 
             // btnKayıtOl
             // 
             this.btnKayıtOl.BackColor = System.Drawing.Color.Aqua;
@@ -71,12 +59,24 @@
             this.btnKayıtOl.UseVisualStyleBackColor = false;
             this.btnKayıtOl.Click += new System.EventHandler(this.btnKayıtOl_Click);
             // 
+            // btnGirisYap
+            // 
+            this.btnGirisYap.BackColor = System.Drawing.Color.Aqua;
+            this.btnGirisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGirisYap.Location = new System.Drawing.Point(6, 31);
+            this.btnGirisYap.Name = "btnGirisYap";
+            this.btnGirisYap.Size = new System.Drawing.Size(112, 79);
+            this.btnGirisYap.TabIndex = 1;
+            this.btnGirisYap.Text = "Giriş Yap";
+            this.btnGirisYap.UseVisualStyleBackColor = false;
+            this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
+            // 
             // lbliSim
             // 
             this.lbliSim.AutoSize = true;
             this.lbliSim.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lbliSim.ForeColor = System.Drawing.Color.Teal;
-            this.lbliSim.Location = new System.Drawing.Point(319, 12);
+            this.lbliSim.Location = new System.Drawing.Point(300, 9);
             this.lbliSim.Name = "lbliSim";
             this.lbliSim.Size = new System.Drawing.Size(187, 22);
             this.lbliSim.TabIndex = 1;
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(582, 306);
+            this.ClientSize = new System.Drawing.Size(519, 294);
             this.Controls.Add(this.lbliSim);
             this.Controls.Add(this.gRbGiris);
             this.Name = "Form1";
